@@ -1,0 +1,6 @@
+{
+  "name": "سنڌي درزي مينيجمينٽ ايپ - Sindhi Tailor App",
+  "description": "مکمل سنڌي ٻوليءَ ۾ درزي دڪان مينيجمينٽ سسٽم ۽ فلٽر موبائل آرڪيٽيڪچر، ماپن جا پروفائل، واٽس ايپ رسيدون ۽ آف لائن سهولت.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

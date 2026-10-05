@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Naskh Arabic', 'Lateef', 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.7;
+    direction: rtl;
+  }
+  
+  /* Proper line height for Arabic/Sindhi script diacritics and letters */
+  h1, h2, h3, h4, h5, h6, p, span, button, input, textarea, select {
+    font-family: inherit;
+  }
+}
+
+.font-sindhi {
+  font-family: 'Noto Naskh Arabic', 'Lateef', 'Segoe UI', system-ui, sans-serif;
+}
+
+.font-lateef {
+  font-family: 'Lateef', serif;
+}
+
+.font-latin {
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
+
+/* Custom pattern for Ajrak / traditional Sindhi tailor touch */
+.bg-sindhi-pattern {
+  background-color: #7f1d1d;
+  background-image: radial-gradient(#991b1b 1.5px, transparent 1.5px), radial-gradient(#991b1b 1.5px, #7f1d1d 1.5px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+.bg-pattern-subtle {
+  background-image: radial-gradient(rgba(180, 83, 9, 0.08) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
